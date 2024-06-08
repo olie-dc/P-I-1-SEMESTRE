@@ -31,13 +31,46 @@
         <h1>Clube Literário</h1>
         <p>Bem-vindo ao nosso clube! Descubra novos livros, participe de discussões e faça parte da nossa comunidade literária.</p>
     </div>
+    <br></br>
+    <hr>
+    <section id="clubs">
+        <div class="livro">
+            <img src="img-mini-pi/pensador_livros_de_fantasia_duna_01.webp" alt="Capa do Livro 1">
+            <div class="descricao-livro">
+                <p><big><strong>Duna, de Frank Herbert</strong></big> | <a href="https://discord.gg/mGRu9yF3Bz">Sala de Bate-Papo</a></p>
+                <p>Escrita por Frank Herbert, a série de livros Duna se tornou uma grande referência para diversas produções do gênero de ficção científica que se tornariam muito populares anos depois, tal como Star Wars e Star Trek. Duna aborda questões relacionadas à religião, filosofia, psicologia, biologia e política em um universo futurista e repleto de ameaças intergaláticas. O primeiro livro da série, chamado simplesmente de Duna, foi adaptado para um filme de grande sucesso em 2021.</p>
+            </div>
+        </div>
+        <hr>
+        <div class="livro">
+            <img src="img-mini-pi/harrypotter.webp" alt="Capa do Livro 2">
+            <div class="descricao-livro">
+                <p><big><strong>Saga Harry Potter, de J. K. Rowling</strong></big>|<a href="https://discord.gg/pgU4KSJ8AZ">Sala de Bate-Papo</a></p>
+                <p>Harry Potter em qualquer lista de literatura que envolva magia? Não há como. O menino que até aos seus 11 anos não sabia que era bruxo está prestes a viver os momentos mais incríveis da sua vida ao lado dos amigos Rony e Hermione. Por ser uma história linear, recomendamos que comece pela começo, A Pedra Filosofal. O universo criado por J. K. Rowling é uma aventura imperdível para quem ama ler.</p>
+            </div>
+        </div>
+        <hr>
+        <div class="livro">
+            <img src="img-mini-pi/ascronicasdenarnia.webp" alt="Capa do Livro 3">
+            <div class="descricao-livro">
+                <p><big><strong>As Crônicas de Nárnia, de C. S. Lewis</strong></big>|<a href="https://discord.gg/uWkzV92wY2">Sala de Bate-Papo</a></p>
+                <p>Um prato cheio para quem gosta de magia, pois reúne sete crônicas que contam a aventura de um jovem no mundo místico e perigoso de Nárnia. São tantos detalhes que não vale a pena tentar resenhar: é mesmo para quem quer mergulhar em uma longa e fascinante história de magia.</p>
+            </div>
+        </div>
+        <hr>
+        <div class="livro">
+            <img src="img-mini-pi/rainhavermelha.webp" alt="Capa do Livro 4">
+            <div class="descricao-livro">
+                <p><big><strong>A Rainha Vermelha, de Victoria Aveyard</strong></big>|<a href="https://discord.gg/2hypAhWk3N">Sala de Bate-Papo</a></p>
+                <p>Em um cenário real onde famílias são divididas entre ricos e plebeus, sangues vermelhos e prateados, a protagonista Mare descobre um poder que não entende como pode ter. Sua aproximação com a família real e uma paixão inesperada faz do livro uma aventura apaixonante do primeiro ao último capítulo.</p>
+            </div>
+        </div>
+    </section>
     
-    <hr> <!-- Linha divisória -->
-    
-    <div style="max-width: 400px; margin: 0 auto; padding: 20px; background-color: #f9f9f9; border-radius: 8px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);">
-        <h2 style="text-align: center;">Feedback</h2>
-        <form id="feedbackForm" method="post">
-            <div style="text-align: center;">
+    <div>
+        <section class="box">
+            <h2>Feedback</h2>
+            <form action="#" method="post">
                 <input type="checkbox" name="rating" id="star5" value="5">
                 <label class="stars" for="star5">&#9733;</label>
                 <input type="checkbox" name="rating" id="star4" value="4">
@@ -48,20 +81,19 @@
                 <label class="stars" for="star2">&#9733;</label>
                 <input type="checkbox" name="rating" id="star1" value="1">
                 <label class="stars" for="star1">&#9733;</label>
-            </div>
-            <textarea name="avaliacao" id="feedbackText" style="width: 100%; padding: 10px; margin-top: 10px; border: 1px solid #ccc; border-radius: 5px; resize: none;" placeholder="Escreva aqui o seu feedback..."></textarea><br>
-            <input type="submit" value="Enviar avaliação" style="display: block; margin: 10px auto; padding: 10px 20px; background-color: #b1a646; color: #fff; border: none; border-radius: 5px; cursor: pointer; transition: background-color 0.3s ease;">
-        </form>
+            </form>
+            <br>
+            <form action="#" method="post">
+                <textarea name="avaliação" placeholder="Escreva aqui o seu feedback..."></textarea><br>
+                <input type="submit" value="Enviar avaliação">
+            </form>
+        </section>
     </div>
     
-    <script>
-        document.getElementById("feedbackForm").addEventListener("submit", function(event) {
-            event.preventDefault();
-            alert("Feedback enviado com sucesso!");
-            document.getElementById("feedbackText").value = "";
-        });
-    </script>
-    
-    
+    <footer>
+        &copy; 2024 Bookworms. Todos os direitos reservados. | 
+        <a href="https://chat.whatsapp.com/Ccvd0JuqsVc77vJ0ZRicLP">Ajuda</a> | 
+        <a href="mailto:seu@email.com">Email: ouvidoria@bookworms.com</a>
+    </footer>
 </body>
 </html>
