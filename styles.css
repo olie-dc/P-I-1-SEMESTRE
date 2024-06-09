@@ -475,11 +475,3 @@ footer .social-media a {
     color: #000000;
     font-size: 1.25rem;
 }
-
-@media screen and (max-width: 768px) {
-    /* Estilos para telas menores que 768 pixels de largura */
-  }
-  
-  @media (orientation: landscape) {
-    /* Estilos específicos para orientação paisagem */
-  }
