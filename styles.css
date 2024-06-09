@@ -475,3 +475,23 @@ footer .social-media a {
     color: #000000;
     font-size: 1.25rem;
 }
+
+@media only screen and (min-width: 768px) {
+    .categories {
+      width: 60%;
+    }
+  
+    .evento {
+      height: 580px;
+    }  
+  }
+  
+  @media only screen and (max-width: 768px) {
+    .categories {
+      width: 90%;
+    }
+  
+    .evento {
+      height: 300px;
+    }
+  }
