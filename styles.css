@@ -39,7 +39,6 @@ header nav ul {
     list-style: none;
     display: flex;
     gap: 1rem;
-    margin-right: 18px;
 }
 
 header nav ul li a {
