@@ -264,3 +264,6 @@ footer .social-media {
 footer .social-media a {
     margin: 0 0.5rem;
 }
+.icon {
+    max-width: 20px; 
+    height: auto; 
