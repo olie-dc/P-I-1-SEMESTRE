@@ -475,3 +475,198 @@ footer .social-media a {
     color: #000000;
     font-size: 1.25rem;
 }
+
+}
+
+.main-corpo {
+    text-align: center;
+    margin: 0px;
+
+}
+
+.novidade {
+    text-align: center;
+}
+
+.frase {
+    margin: 55px;
+    text-align: center;
+}
+
+.info1,
+comentario {
+    text-align: start;
+}
+
+.titulo {
+    text-align: center;
+    margin: -40px;
+}
+
+.texto1 {
+    text-align: center;
+    margin: 55px;
+}
+
+.titulo2 {
+    text-align: center;
+    margin: -20px;
+    color: #8C7C56;
+    font-size: 30px;
+}
+
+.texto2 {
+    text-align: center;
+    margin: 50px;
+    font-size: medium;
+}
+
+.data {
+    text-align: center;
+    margin: -15px;
+}
+
+.box2 {
+    height: 300px;
+    width: 1080px;
+    border: 15px solid white;
+    padding: 50px;
+    margin-bottom: 30px;
+    border-top: auto;
+    background-color: rgb(253, 242, 227);
+}
+
+.box3 {
+    height: 350px;
+    width: 1080px;
+    border: 15px solid white;
+    padding: 50px;
+    margin-bottom: 30px;
+    border-top: auto;
+    background-color: rgb(253, 242, 227);
+}
+
+.box {
+    height: 300px;
+    width: 1080px;
+    border: 15px solid white;
+    padding: 10px;
+    margin: 0px;
+    border-top: auto;
+}
+
+.fundo{
+    background-image: url('./images/biblioteca.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.logo1 {
+    display: block;
+    margin: auto;
+    margin-top: auto;
+}
+
+.box4 {
+    height: 300px;
+    width: 1080px;
+    border: 15px solid white;
+    padding: 10px;
+    border-top: auto;
+    background-color: rgb(253, 242, 227);
+}
+
+.feedback1 {
+    height: 100px;
+    width: 325px;
+    border: 3px solid black;
+    display: flex;
+    justify-content: right;
+    align-items: right;
+
+}
+
+.feedback2 {
+    height: 100px;
+    width: 325px;
+    border: 3px solid black;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+}
+
+.feedback3 {
+    height: 100px;
+    width: 325px;
+    border: 3px solid black;
+    display: inline-block;
+    flex-direction: center;
+    justify-content: end;
+}
+
+#depoimentos {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #8C7C56;
+}
+.user-feedback {
+    display: flex;
+    justify-content: center;
+}
+.feedback {
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #f9f9f9;
+    width: 300px;
+}
+
+.titulo3 {
+    text-align: center;
+    margin: -40px;
+    color: #8C7C56;
+    font-size: 30px;
+}
+
+.texto3 {
+    text-align: center;
+    margin: 45px;
+    font-size: medium;
+}
+
+.nome-livro{
+    text-align: center;
+    margin: -35px;
+    font-size: 30px;
+}
+
+.paragrafo{
+    text-align: center;
+    margin: 55px;
+}
+
+.ponter{
+    background-color: #333;
+    color: #EEE9E5;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: -0px;
+}
+
+#depoimentos, h2{
+    color: #8C7C56;
+}
+.user {
+   font-weight: bold;
+   margin-bottom: 5px;
+}
+.avaliacao {
+   font-size: 20px;
+   color: #e6d863; /* Cor amarela para as estrelas */
+}
+.comentario {
+   color: #666;
+} 
