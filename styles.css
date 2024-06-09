@@ -282,7 +282,7 @@ footer .social-media a {
     position: absolute;
     top: 50%;
     left: -50%;
-    width: 200%;
+    width: 161.1%;
     height: 4rem;
     background: #EEE9E5;
     transform: translateY(-80%);
@@ -301,7 +301,7 @@ footer .social-media a {
 .evento {
     display: flex;
     justify-content: center;
-    width: 100vw;
+    width: 99vw;
     height: 580px;
     background-image: url(./images/background-evento.png);
     background-size: cover;
@@ -386,7 +386,7 @@ footer .social-media a {
     position: absolute;
     top: 50%;
     left: -50%;
-    width: 200%;
+    width: 161.2%;
     height: 3rem;
     background: #EEE9E5;
     transform: translateY(-80%);
