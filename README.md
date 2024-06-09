@@ -32,8 +32,3 @@ Contribuições são bem-vindas! Se você deseja contribuir para o desenvolvimen
 1. Fork o repositório
 2. Faça suas alterações
 3. Envie um pull request
-
-## Prints
-![Home]()
-![News]()
-![Clubs]()
