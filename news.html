@@ -1,104 +1,130 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bookworms - O Mundo Dos Livros Ao Seu Alcance</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
     <header>
-        <div class="logo">
-            <img src="img-mini-pi/413-4139246_free-png-this-free-icons-design-of-books.png" alt="logo" height="42" width="42">
-        </div>
+        <div class="logo">BookWorms©</div>
         <nav>
             <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="news.html">Notícias</a></li>
+                <li><a class="botao" href="index.html">Home</a></li>
+                <li><a class="botao" href="news.html">Notícias</a></li>
                 <li class="dropdown">
-                    <a href="javascript:void(0)" class="dropbtn">Clubes</a>
+                    <a class="botao" href="javascript:void(0)" class="dropbtn">Clubes</a>
                     <div class="dropdown-content">
-                        <a href="fantasia.html">Fantasia | Ficção científica | Distopia</a>
-                        <a href="acao.html">Ação | aventura</a>
-                        <a href="romance.html">Romance</a>
+                        <a class="botao" href="fantasia.html">Fantasia | Ficção científica | Distopia</a>
+                        <a class="botao" href="acao.html">Ação | aventura</a>
+                        <a class="botao" href="romance.html">Romance</a>
                     </div>
                 </li>
-            </ul>        
+                <li></li>
+                <li></li>
+            </ul>
         </nav>
     </header>
 
-    <section id="evento">
-        <h2>Próximos Eventos</h2>
-        <p>Aqui está o próximo evento do nosso clube literário:</p>
-        <ul>
-            <li>
-                <strong>Final de Semana de Leitura Compartilhada:</strong><br>
-                <img src="img-mini-pi/livro-o-píncipe-cruel-da-holly-black-3772029538.jpeg" alt="Capa do Livro"><br>
-                <big><strong><em>O príncipe cruel (Vol. 1 O Povo do Ar) por Holly Black</em><br></strong></big>
-                <em>Data: 13/04/2024</em><br>
-                <br>
-                <em>Sinopse:</em>
+    <div class="chamada-evento">
+        <h2>Próximo Evento</h2>
+    </div>
+
+    <section class="evento">
+        <div class="evento-content">
+            <div class="image-content">
+                <img src="./images/colecao-harrypotter.png" alt="colecao-harrypotter">
+            </div>
+            <div class="colection-content">
+                <h2>Coleção HARRY POTTER©</h2>
                 <p>
-                    Jude, uma garota mortal, foi levada para viver no perigoso Reino das Fadas após a brutal morte de seus pais. Dez anos se passaram, e Jude deseja desesperadamente se encaixar na Corte das Fadas, apesar do desprezo dos feéricos pelos humanos, especialmente pelo príncipe Cardan. Para alcançar seu objetivo, Jude desafia o príncipe, mergulhando cada vez mais nos jogos e intrigas do palácio, descobrindo sua própria habilidade para manipulações e confrontos. No entanto, uma traição ameaça mergulhar Elfhame em violência, levando Jude a arriscar tudo em uma aliança perigosa para salvar suas irmãs e o reino. Envolta em mentiras e traições, Jude deve compreender o verdadeiro significado do poder antes que seja tarde demais. "O Príncipe Cruel" apresenta personagens cativantes, reviravoltas surpreendentes e uma trama repleta de traições, deixando o leitor ansioso pela continuação deste universo intrigante.
+                    Estamos entusiasmados em anunciar esta nova coleção que em breve estará
+                    disponível no nosso clube literário. Preparem suas varinhas e capas, porque
+                    o mundo mágico de Harry Potter está prestes a fazer uma visita especial ao nosso clube!
+                    Iremos organizar sessões de leitura, debates e quizzes baseados nas aventuras do menino
+                    que sobreviveu. É a oportunidade perfeita para reviver as melhores partes, discutir
+                    teorias, e descobrir novos detalhes sobre a série.
                 </p>
-                <p class="frase">"Se eu não puder ser melhor do que eles, então serei pior." (Holly Black - O povo do ar)</p>
-                <em>Descrição do Evento:</em>
-                <p>
-                    Junte-se a nós para um final de semana de leitura compartilhada do livro O príncipe cruel (Vol. 1 O Povo do Ar). Durante o evento, teremos um narrador profissional para ler trechos selecionados do livro, acompanhados por uma trilha sonora especialmente preparada para a atmosfera da história. Este será um momento de imersão total na narrativa, onde poderemos apreciar a magia da literatura juntos.
-                </p>
-            </li>
-        </ul>
+                <div class="button-div">
+                    <a class="saiba-mais-ref" href="http://">
+                        <button class="button-saiba-mais" href="./romance.html">
+                            Saiba Mais →
+                        </button>
+                    </a>
+                </div>
+            </div>
+        </div>
     </section>
-    
-    <div class="news">
-        <section class="news-section">
-            <h2>Novidades: Dois Novos Títulos no Clube</h2>
-            <p>Estamos entusiasmados em anunciar dois novos títulos que em breve estarão disponíveis no nosso clube literário. Confira abaixo:</p>
-            <div class="news-item">
-                <img src="img-mini-pi/é-assim-que-acaba.jpg" alt="Capa do Livro">
-                <h3>É Assim que Acaba (It Ends With Us) por Colleen Hoover</h3>
-                <p>Data de Lançamento: 27/04/2024</p>
-                <br>
-                <p>É Assim que Acaba é conta a história de Lily Bloom, uma jovem recém-chegada em Boston que abre a própria floricultura. Na nova cidade, ela conhece o neurocirurgião Ryle e os dois se apaixonam. Porém, o relacionamento acaba sendo muito diferente do que Lily esperava.
 
-                    Na obra, Hoover aborda temas difíceis, como a violência doméstica e o abuso psicológico, com muita sensilibidade. Vale a pena conferir e se apaixonar por essa história emocionante e sua sequência, É Assim que Começa.
-                    
-                    A obra ganhará uma adaptação para os cinemas com previsão de estreia em 2024 e com Blake Lively no papel de Lily Bloom.
-                </p>
-                <p class="frase">Todos os seres humanos cometem erros. O que determina o caráter de uma pessoa não são os erros que ela comete, mas como ela transforma esses erros em lições ao invés de dar desculpas. (Colleen Hoover – É Assim que Acaba)</p>
-            </div>
-            <br>
-            <div class="news-item">
-                <img src="img-mini-pi/pensador_vermelho_branco_e_sangue_azul_c.webp" alt="Capa do Livro">
-                <h3>Vermelho, Branco e Sangue Azul (Red, White & Royal Blue) por Casey McQuiston</h3>
-                <p>Data de Lançamento: 30/04/2024</p>
-                <br>
-                <p>
-                    No aclamado romance Vermelho, Branco e Sangue Azul conhecemos a história de amor entre Alex Claremont-Diaz, filho da presidenta eleita dos Estados Unidos, e o Príncipe Henry, da Inglaterra.
-
-                    Depois de um incidente que poderia prejudicar a reeleição da presidenta, os dois jovens devem fingir uma amizade para o público. No entanto, a aproximação entre os dois vai fazer com que novos sentimentos surjam.
-
-                    Um livro perfeito para quem ama histórias românticas, leves, doces e repletas de momentos especiais. Um filme inspirado no livro foi lançado em 2023 e está disponível no Prime Video.
-                </p>
-                <p class="frase">Às vezes você simplesmente pula e torce para que não seja um penhasco. (Casey McQuiston – Vermelho, Branco e Sangue Azul)</p>
-            </div>
-        </section>
+    <div class="chamada-novidades">
+        <h2>Novidades</h2>
     </div>
-      
-    <div>
-        <section class="box">
-            <h2>Sugira um Livro para o Clube</h2>
-            <form action="#" method="post">
-                <textarea name="sugestao" placeholder="Escreva sua sugestão aqui..."></textarea><br>
-                <input type="submit" value="Enviar Sugestão">
-            </form>
-        </section>
-    </div>
+
+    <section class="novidades">
+        <div class="novidades-content">
+            <div class="novidade-card1">
+                <div class="image-novidade-box">
+                    <img src="./images/suspense.png" alt="suspense-image">
+                </div>
+                <div class="novidade-text">
+                    <h2>Suspense</h2>
+                    <p>
+                        Estamos empolgados em convidar você para desvendar os mistérios mais envolventes 
+                        no nosso novo Clube de Suspense! Prepare-se para uma jornada eletrizante cheia de 
+                        reviravoltas inesperadas, personagens enigmáticos e tramas de arrepiar os cabelos. 
+                        Venha discutir as narrativas mais sombrias e fascinantes, compartilhar suas teorias e se 
+                        conectar com outros aficionados por suspense. Não perca essa oportunidade de mergulhar no 
+                        desconhecido - junte-se ao nosso clube e transforme cada leitura em uma experiência de
+                        tirar o fôlego!
+                    </p>
+                </div>
+            </div>
+            <div class="novidade-card2">
+                <div class="novidade-text">
+                    <h2>Romance</h2>
+                    <p>
+                        Ficamos felizes em anunciar o lançamento do Clube de Romance, onde 
+                        corações apaixonados e histórias encantadoras ganham vida! Junte-se a nós para 
+                        explorar os mais belos contos de amor, dos encontros inesquecíveis às paixões 
+                        arrebatadoras. Troque emoções, discuta os romances mais cativantes e viva momentos 
+                        de pura magia literária. Este é o seu convite para se perder nas páginas de histórias 
+                        que fazem o coração bater mais forte. Apaixone-se pela leitura mais uma vez e faça 
+                        parte do nosso clube em nosso discord!
+                    </p>
+                </div>
+                <div class="image-novidade-box">
+                    <img src="./images/romance.png" alt="romance-image">
+                </div>
+            </div>
+            <div class="novidade-card1">
+                <div class="image-novidade-box">
+                    <img src="./images/ficcao.png" alt="ficcao-image">
+                </div>
+                <div class="novidade-text">
+                    <h2>Ficção</h2>
+                    <p>
+                        Estamos animados em convidar você para explorar novas fronteiras no nosso Clube de Ficção 
+                        Científica! Deixe-se levar por universos distantes, inovações futurísticas e aventuras intergalácticas 
+                        que desafiam a imaginação. Discuta as teorias mais intrigantes, compartilhe suas ideias sobre o futuro 
+                        e mergulhe em narrativas que ultrapassam os limites da realidade. Este é o seu portal para o 
+                        desconhecido - junte-se a nós e descubra o infinito potencial da ficção científica no nosso clube!
+                    </p>
+                </div>
+            </div>
+    </section>
 
     <footer>
-        &copy; 2024 Bookworms. Todos os direitos reservados. | 
-        <a href="https://chat.whatsapp.com/Ccvd0JuqsVc77vJ0ZRicLP">Ajuda</a> | 
-        <a href="mailto:seu@email.com">Email: ouvidoria@bookworms.com</a>
+        <p>BookWorms©</p>
+        <div class="social-media">
+            <a href="mailto:bookworms@bookworms.com"><img class="icon" src="images/icone-email.png" alt="E-mail"></a>
+            <a href="https://chat.whatsapp.com/Kl1Iu0bRQh954Y6FjCQkSK"><img class="icon" src="images/icone-ajuda.png"
+                    alt="Ajuda"></a>
+            <a href="https://discord.gg/NJ6SBjDh"><img class="icon" src="images/icone-discord.png" alt="Discord"></a>
+        </div>
     </footer>
 </body>
+
 </html>
