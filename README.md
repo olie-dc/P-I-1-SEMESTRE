@@ -32,3 +32,7 @@ Contribuições são bem-vindas! Se você deseja contribuir para o desenvolvimen
 1. Fork o repositório
 2. Faça suas alterações
 3. Envie um pull request
+
+## Figma
+![Low-Fi](https://github.com/olie-dc/P-I-1-SEMESTRE/blob/main/images/low-fi.jpg?raw=true)
+![High-Fi](https://github.com/olie-dc/P-I-1-SEMESTRE/blob/main/images/high-fi.jpg?raw=true)
